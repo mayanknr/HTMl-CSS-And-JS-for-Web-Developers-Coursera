@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            border: black 1px solid;
+            padding: 5px;
+            margin: 8px;
+            float: left;
+            width: 90%;
+            
+        }
+
+        .para{
+            height: 200px;
+            /* width: 90%;  */
+            background-color: blue;
+            border: 1px solid black;
+            }
+
+            @media (min-width: 1200px){
+               .container{
+                   width: 30%;
+               }
+            }
+
+            @media (min-width:992px) and (max-width:1199px){
+                .container{
+                    width:45%;
+                }
+            }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="para">This is a para</div>
+    </div>
+
+    <div class="container">
+        <div class="para">This is a para</div>
+    </div>
+
+    <div class="container">
+        <div class="para">This is a para</div>
+    </div>
+</body>
+</html>
